@@ -1,40 +1,39 @@
 
 # Java OTP Generator
 
-This project is a simple Java application that generates a random one-time password (OTP) of a specified length. The OTP includes uppercase letters, lowercase letters, numbers, and special symbols to ensure security and versatility.
+## Description
 
-## Features
+This project is a Java implementation of a random OTP (One-Time Password) generator. The program generates a secure OTP of a specified length using a combination of uppercase letters, lowercase letters, numbers, and special symbols. The system ensures a strong password by incorporating various character types and using the `Random` class for generating random values.
 
-- Generates a random OTP of customizable length
-- Includes a mix of uppercase letters, lowercase letters, numbers, and special symbols
-- Utilizes the `Random` class for secure random number generation
+## Requirements
 
-## Getting Started
+- Java 8 or higher
 
-1. **Clone the Repository:**
-   ```bash
+## Usage
+
+1. Clone this repository:
+
    git clone https://github.com/sfy45/OTP_Generator.git
+
+2. Change into the project directory:
+
    cd OTP_Generator
-   ```
 
-2. **Compile the Java Program:**
-   ```bash
+3. Compile the Java program:
+   
    javac Main.java
-   ```
 
-3. **Run the Program:**
-   ```bash
+4. Run the program:
+
    java Main
-   ```
 
    The program will generate and print a random OTP of 10 characters by default. You can modify the `length` variable in the `Main` class to change the length of the OTP.
 
-## Code Explanation
+## Contributing
 
-- **`Main` Class:** Contains the `main` method which is the entry point of the program.
-- **`Password` Method:** Generates a random OTP using a mix of character sets and the `Random` class.
+Issues, suggestions, and pull requests are welcome to help improve this project. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Contact
 
-For any questions or issues, please contact [sophiasad1421@gmail.com].
+In case of questions or feedback, please feel free to contact me at [sophiasad1421@gmail.com].
 
